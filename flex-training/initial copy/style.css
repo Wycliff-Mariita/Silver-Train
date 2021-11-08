@@ -1,0 +1,55 @@
+* {
+    margin: o;
+    padding: 0;
+}
+
+/*
+div {
+    background-color: blueviolet;
+    border-style: solid;
+    padding-left: 5%;
+    padding-right: 5%;
+    
+    
+}
+ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    height: 100%;
+    gap: 15px;
+}
+
+li {
+   margin: 0 10px;
+}
+*/
+.section1 {
+    background-color: darkgoldenrod;
+    display: flex;
+    /*gap: 800px;*/
+    padding-left: 50px;
+    flex-grow: 1;
+    flex-shrink: 1;
+    justify-content: space-between;
+    padding-right: 30px;
+    
+}
+.quick_links {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+
+.registration {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    align-items: center;
+    
+    
+}
