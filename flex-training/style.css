@@ -12,8 +12,8 @@
     
 }
 .navigation {
-    border-style: solid;
-    /* height: 10vh; */
+    /* border-style: solid; */
+    height: auto;
     display: flex;
     flex-direction: row;
     flex-grow: 1;
@@ -22,7 +22,8 @@
     align-items: center;
     margin-bottom: 10px;
     display: grid;
-    grid-template-columns: 10% 70% 20%;
+    grid-template-columns: 10% auto auto;
+    
 }
 li {
     list-style: none;
@@ -43,7 +44,7 @@ li {
     align-items: center;
     gap: 20px;
     padding-left: 10px;
-    background-color: chartreuse;
+    /* background-color: chartreuse; */
     height: 100%;
 }
 .quick_links2 {
@@ -53,7 +54,7 @@ li {
     align-items: center;
     gap: 10px;
     padding-right: 10px;
-    background-color: darkgoldenrod;
+    /* background-color: darkgoldenrod; */
     height: 100%
 }
 
