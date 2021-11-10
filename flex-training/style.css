@@ -23,6 +23,8 @@
     margin-bottom: 10px;
     display: grid;
     grid-template-columns: 10% auto auto;
+    /* background-color: black;
+    gap: 5px; */
     
 }
 li {
