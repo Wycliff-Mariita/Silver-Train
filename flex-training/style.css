@@ -91,3 +91,12 @@ li {
     background-color: aqua;
 }
 
+.menu {
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+    flex-shrink: 1;
+    border-style: solid;
+    height: 1vh;
+    background-color: hotpink;
+}
